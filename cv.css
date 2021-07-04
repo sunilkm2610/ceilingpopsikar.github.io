@@ -1,0 +1,284 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    height: 100vh;
+}
+.main-container{
+    max-width: 98rem;
+    /* min-width: 970px; */
+    width: 100vw;
+    height: 92vh;
+    background: #fff;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    border-radius: 0.5rem;
+    /* border: 2px solid black; */
+    padding: 2rem;
+    background-color: #E8F0F2;
+}
+.image{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+}
+.details{
+    width: 100%;
+}
+.contact{
+    display: flex;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+h3{
+    margin: 0.5rem;
+    font-size: 2.2rem;
+}
+h4{
+    margin: 0.4rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.icon i{
+    margin: 1rem;
+    font-size: 3rem;
+}
+.second-container{
+    display: flex;
+    margin-top: 0rem;
+    padding: 0;
+    height: 69%;
+    box-sizing: border-box;
+    
+}
+.skill{
+    flex-basis: 20rem;
+    padding: 2.4rem;
+    background: #F6C6EA;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+}
+.exp{
+    flex-basis: 100rem;
+    height: auto;
+    padding: 2.4rem;
+    background: #E8F0F2;
+    border-radius: 0.5rem;
+    overflow:scroll;
+}
+.education{
+    height: auto;
+    border: 0.1rem solid #222;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+table{
+    width: 100%;
+    font-size: 1.4rem;
+}
+thead{
+    color: #222;
+}
+thead,td{
+    /* border-radius: 5px; */
+    text-align: center;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    box-sizing: border-box;
+    /* background-color: white; */
+    
+    
+    
+}
+.work-exp{
+    /* position:absolute; */
+    /* height: 60%; */
+    border: 1px solid #222;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* font-size: 2rem; */
+}
+.project{
+    /* height: 66%; */
+    border: 0.1rem solid #222;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+}
+.work-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-bottom: -1rem;
+    font-weight: 600;
+    color:#222;
+    font-size: 1.5rem;
+}
+.workhead{
+    text-align: center;
+    margin: 0.5rem;
+    border-bottom: 0.2rem solid #222;
+    width: auto;
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+}
+.work-details{
+    word-wrap: inherit;
+    margin-left: -1.5rem;
+    font-size: 0.1rem;
+    margin-bottom: -1.0rem;
+    font-size: 1.4rem;
+}
+.work-date{
+    margin-right: 0.5rem;
+    font-weight: 10rem;
+    color: #444444;
+    font-style: italic;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    height: 40.2rem;
+    
+    
+}
+#skill{
+    display:block;
+    transition: all 3s ease;
+    /* position:absolute; */
+}
+.skill1{
+    height: 90%;
+    border: 0px solid #222;
+    padding: 0;
+    
+    /* text-align: center; */
+    /* margin-bottom: 20%; */
+}
+.skill1 h5{
+    margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: center;
+
+}
+.skill2{
+    /* height: 45%; */
+    border: 0px solid #222;
+}
+.skill1 ul{
+    margin-left: -3rem;
+    /* width: 100px; */
+    margin-top: 0.5rem;
+    /* text-align: center; */
+}
+.skill1 ul li{
+    list-style: none;
+    width: 10rem;
+}
+.skill-bar{
+    display: flex;
+}
+.download{
+    border-radius: 5rem;
+    margin-left: 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(0, 98, 122);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 1.5rem;
+}
+.download:hover{
+    background-color: rgba(0, 136, 169, 0.9);
+}
+@media (max-width:900px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:750px) {
+    html{
+        font-size: 40%;
+    }
+}
+@media (max-width:550px) {
+    html{
+        font-size: 30%;
+    }
+}
+@media (max-width:450px) {
+    html{
+        font-size: 20%;
+    }
+    .work-details{
+        word-wrap: inherit;
+        margin-left: -9rem;
+        font-size: 1.3rem;
+        margin-bottom: -1.0rem;
+        font-size: 1.4rem;
+    }
+    .exp{
+        flex-basis: 100rem;
+        height: 95rem;
+        padding: 2.4rem;
+        background: #E8F0F2;
+        border-radius: 0.5rem;
+        overflow:scroll;
+    }
+}
+@media (max-width:11110px) {
+    .checkbtn i{
+        display: block !important;
+    }   
+    
+}
+.checkbtn i{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    display: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.button_header{
+    display: flex;
+    justify-content: space-between;
+}
+.edit_cv_btn{
+    border-radius: 5rem;
+    margin-left: 2rem;
+    padding: 0rem 3rem;
+    background-color: rgb(0, 98, 122);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-size: 1.5rem;
+}
+.edit_cv_btn:hover{
+    background-color: black;
+    /* color: white; */
+}
